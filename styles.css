@@ -1,0 +1,65 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 6em;
+  margin-bottom: 0.3em;
+  color: #009ac4;
+}
+
+h2 {
+  margin-top: 6em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'oswald', sans-serif;
+}
+
+footer {
+  background-color: #009ac4;
+}
+.bg-nav {
+  background-color: #009ac4;
+}
+
+.portada {
+  text-align: center;
+  background-image: url('../img/camila.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.descripcion {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.descripcion > p {
+  font-weight: bold;
+  text-align: center;
+  margin: 2em;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
