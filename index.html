@@ -2,141 +2,153 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Olivia Ros - Food Blogger</title
-
-  <meta name="viewport"content="width=device-width, initial-scale+1.0">
-<!--CSS de bootstrap 4.2.1-->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-<!--Font-->
-<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-<!--font awesome-->
+    <title>Yiniba Camila</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---bootstrap--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!---css--->
+    <link rel="stylesheet" href="assets/css/style.css">
+        <!---fonts--->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:200,400,700&display=swap" rel="stylesheet">
+<!---fontawesome--->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-<!--mi estilo-->
-<link rel="stylesheet" href="assets/css/style.css">
-
   </head>
   <body>
-    <!--navbar-->
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <!---navbar--->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top">
+      <div id="nav-mobile" class="container">
+          <a class="navbar-brand" href="#inicio">Y</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#inicio">inicio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#descripcion">Sobre mi <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#experience">Experiencia</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#proyectos">Trabajos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+<!---header--->
+      <header id="inicio" class="portada">
+          <h2 class="subtitulo">Hola me llamo</h2>
+          <h1>Yiniba Camila</h1>
+      </header>
+
+<!---minibio--->
+<section id="descripcion" class="container my-5 p-5">
+    <h4>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
+  </h4>
+    <div class="container px-lg-5">
+  <div class="row mx-lg-n5">
+    <div class="col py-3 px-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</div>
+    <div class="col py-3 px-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</div>
+  </div>
+</div>
+</section>
+
+<!---experiencia--->
+<section id="experience" class="container text-center">
+  <h3>Mi experiencia</h3>
+<div class="row text-center">
+      <div class="col-md-5">
+        <i class="fab fa-empire p-2 fa-9x"></i>
+        <h4>Stormtrooper</h4>
+        <p>1980 - 2014</p>
+      </div>
+
+      <div class="col-md-5">
+        <i class="fas fa-palette p-2 fa-9x"></i>
+        <h4>Diseño Grafico</h4>
+        <p>2015 - 2020</p>
+      </div>
+
+</div>
+</section>
+
+<!---mis proyectos-->
+<section id="proyectos" class="container-fluid bg-dark pt-5 py-5">
+  <h3 class="display-3 text-center font-weight-bold text-white">Mis Proyectos</h3>
+<!---cards--->
+<div class="card-deck my-5">
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 class="card-title">Suricata</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 class="card-title">Ricomida</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
+    <div class="card-body">
+              <h4 class="card-title">Iguana</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
+    <div class="card-body">
+              <h4 class="card-title">Cuppon</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+    <div class="card-body">
+              <h4 class="card-title">meet coffee</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/dmark.png" class="card-img-top" alt="...">
+    <div class="card-body">
+              <h4 class="card-title">dmark</h4>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!---formulario--->
+<div id="contacto"  class="typeform-widget" data-url="https://yinibacamila1995.typeform.com/to/imSOvK" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=imSOvK&utm_source=typeform.com-01E7N5XK52ZQ2E2XJNKWJ19VEK-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
+<footer id="footer" class="text-center text-light p-5">
 <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Acerca de mí <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Trabajos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
-              </ul>
-            </div>
-            </div>
-          </nav>
-
-<header class="hero text-light text-right pt-5 mt-5">
-  <<div class="container">
-    <<h1 class="display-1 font-weight-bold my-5">Comidas del fin del mundo</h1>
-    <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <a href="#" class="btn btn-outline-info btn-lg">Trabajos</a>
-    <a href="#" class="btn btn-info btn-lg">Contacto</a>
-  </div>
-</header>
-
-
-<section class="container text-center my-5">
-  <h2>Acerca de mi</h2>
-  <p class="my-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<div class="row">
-  <div class="col-md-4">
-      <i class="fas fa-camera fa-3x my-3"></i>
-      <h3 class="my-3">Fotografa de comida</h3>
-      <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-    <div class="col-md-4 my-3">
-      <i class="fas fa-bullhorn fa-3x my-3"></i>
-      <h3 class="my-3">Critica culinaria</h3>
-      <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
-  <div class="col-md-4 my-3">
-      <i class="far fa-map fa-3x my-3"></i>
-      <h3 class="my-3">Bloggera de viajes</h3>
-      <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  </div>
+  <h4>Yiniba Camila</h4>
+<a href="#">  <i class="fab fa-github-square fa-5x text-light"></i></a>
+<a href="https://www.linkedin.com/in/yiniba-camila-castillo-palencia-369052177?trk=people-guest_people_search-card">  <i class="fab fa-linkedin fa-5x text-light"></i></a>
+<a href="https://twitter.com/Yinibacamila">  <i class="fab fa-twitter-square fa-5x text-light"></i></a>
+<a href="https://www.facebook.com/yiniba.camila">  <i class="fab fa-facebook-square fa-5x text-light"></i></a>
 </div>
-  </section>
-  <section class="container-fluid my-5 p-5 bg-info">
-    <h1 class="display-3 text-center font-weight-bold text-white m-4">Mis trabajos</h1>
-    <div class="card-deck">
-          <div class="card">
-            <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Asado en la Patagonia</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-outline-info">Ver más</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Papas del fin del mundo</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-outline-info">Ver mas</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Salmones de Alaska</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <a href="#" class="btn btn-outline-info">Ver más</a>
-            </div>
-</div>
-</div>
-  </section>
-  <section class="container my-5">
-    <h2 class="display-3 font-weight-bold text-center my-4">Contactame</h2>
-    <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <form>
-        <div class="form-group">
-          <label for="formGroupExampleInput">Nombre</label>
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nombre">
-        </div>
-
-        <div class="form-group">
-          <label for="exampleInputEmail1">Correo electronico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electronico">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-    <label for="exampleFormControlTextarea1">Tu mensaje</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
-  </div>
-        <div class="text-right">
-          <button type="submit" class="btn btn-info">Submit</button>
-
-        </div>
-</form>
-  </section>
-
-  <footer class="bg-dark text-center text-light p-3">
-<p>Olivia ros 2019. todos los derechos reservados.</p>
-  </footer>
-
-    <!--Jquery 3.3.1-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<!--Pooper JS 1.14.3-->
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<!--bootstrap JS 4.2.1-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!---miscript--->
+    <script src="assets/js/script.js">
 
+    </script>
   </body>
 </html>
